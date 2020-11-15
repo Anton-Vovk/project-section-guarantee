@@ -85,7 +85,7 @@ h3 {
 
 @media screen and (min-width: 1320px) {
   .guarantee__list {
-    padding: 50px 112px 45px 112px;
+    padding: 50px 96px 45px 96px;
   }
 }
 
@@ -124,7 +124,7 @@ h3 {
 
 @media screen and (min-width: 1320px) {
   .guarantee__paragraph {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 1.4;
   }
 }
@@ -137,20 +137,44 @@ h3 {
 
 @media screen and (min-width: 768px) {
   .guarantee__icon {
-    width: 20px;
+    width: 22px;
     margin-right: 25px;
   }
 }
 
 @media screen and (min-width: 1320px) {
   .guarantee__icon {
-    margin-right: 25px;
+    width: 18px;
   }
 }
 
 .guarantee__wrap {
+  position: relative;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
+}
+
+.guarantee__wrap-before:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 74px;
+  border-right: 1px dashed #b9b9b9;
+  left: 7px;
+  bottom: -19px;
+}
+
+@media screen and (min-width: 768px) {
+  .guarantee__wrap-before:before {
+    height: 35px;
+    bottom: -17px;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .guarantee__wrap-before:before {
+    height: 33px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
