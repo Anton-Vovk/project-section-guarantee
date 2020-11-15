@@ -48,23 +48,19 @@ h3 {
 .guarantee__container {
   max-width: 320px;
   margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 @media screen and (min-width: 768px) {
   .guarantee__container {
-    max-width: 768px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 688px;
   }
 }
 
 @media screen and (min-width: 1320px) {
   .guarantee__container {
-    max-width: 1320px;
-    padding-left: 183px;
-    padding-right: 183px;
+    max-width: 1344px;
   }
 }
 
@@ -85,7 +81,7 @@ h3 {
 
 @media screen and (min-width: 1320px) {
   .guarantee__list {
-    padding: 50px 96px 45px 96px;
+    padding: 50px 112px 45px 112px;
   }
 }
 
@@ -124,7 +120,7 @@ h3 {
 
 @media screen and (min-width: 1320px) {
   .guarantee__paragraph {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.4;
   }
 }
@@ -174,7 +170,7 @@ h3 {
 
 @media screen and (min-width: 1320px) {
   .guarantee__wrap-before:before {
-    height: 33px;
+    height: 50px;
   }
 }
 /*# sourceMappingURL=main.css.map */
