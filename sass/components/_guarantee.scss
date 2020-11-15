@@ -110,18 +110,18 @@
     content: '';
     position: absolute;
     display: block;
-    height: 74px;
+    height: 70px;
     border-right: 1px dashed $text-color-grey;
     left: 7px;
-    bottom: -19px;
+    bottom: -17px;
 
     @media screen and (min-width: $breakpoint-tablet) {
       height: 35px;
-      bottom: -17px;
     }
 
     @media screen and (min-width: $breakpoint-desktop) {
-      height: 50px;
+      height: 45px;
+      bottom: -15px;
     }
   }
 }

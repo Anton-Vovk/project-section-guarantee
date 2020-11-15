@@ -155,22 +155,22 @@ h3 {
   content: '';
   position: absolute;
   display: block;
-  height: 74px;
+  height: 70px;
   border-right: 1px dashed #b9b9b9;
   left: 7px;
-  bottom: -19px;
+  bottom: -17px;
 }
 
 @media screen and (min-width: 768px) {
   .guarantee__wrap-before:before {
     height: 35px;
-    bottom: -17px;
   }
 }
 
 @media screen and (min-width: 1320px) {
   .guarantee__wrap-before:before {
-    height: 50px;
+    height: 45px;
+    bottom: -15px;
   }
 }
 /*# sourceMappingURL=main.css.map */
