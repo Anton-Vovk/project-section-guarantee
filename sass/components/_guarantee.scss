@@ -7,9 +7,28 @@
     padding-bottom: 130px;
   }
 
+  &__container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+
+    @media screen and (min-width: $breakpoint-tablet) {
+      max-width: 768px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    @media screen and (min-width: $breakpoint-desktop) {
+      max-width: 1320px;
+      padding-left: 183px;
+      padding-right: 183px;
+    }
+  }
+
   &__accent {
     color: $accent-color;
   }
+
   &__list {
     padding: 30px 20px;
     background: #f1f1f1;
@@ -47,10 +66,10 @@
     font-size: 12px;
     line-height: 1.67;
     color: #3d3d3d;
-  }
-  @media screen and (min-width: $breakpoint-desktop) {
-    font-size: 20px;
-    line-height: 1.4;
+    @media screen and (min-width: $breakpoint-desktop) {
+      font-size: 20px;
+      line-height: 1.4;
+    }
   }
 
   &__icon {
